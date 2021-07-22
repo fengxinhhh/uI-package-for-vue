@@ -15,6 +15,8 @@ import Badge from './Badge.vue'
 import Loading from './Loading.vue'
 import Pagination from './Pagination.vue'
 import Breadcrumb from './Breadcrumb.vue'
+import Tree from './Tree.vue'
+import Lazyimg from './Lazyimg.vue'
 const components = [
     Button,
     RadioGroup,
@@ -32,7 +34,9 @@ const components = [
     Badge,
     Loading,
     Pagination,
-    Breadcrumb
+    Breadcrumb,
+    Tree,
+    Lazyimg
 ]
 
 const install = function (Vue) {

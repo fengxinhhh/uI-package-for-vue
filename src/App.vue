@@ -69,20 +69,45 @@
       choosePageNumByInput
       @changePageNum = "changePageNum"
       @changePageSize = "changePageSize"></fl-Pagination> -->
-      <Tree
+      <!-- <Tree
       :dateSource = "treeData"
       avaChecked
       defaultOpen
-      
+      onlyShowOne
       @afterToggle = "afterToggle"
       @handleChecked = "handleChecked"
-      ></Tree>
-    
+      ></Tree> -->
+      <p>1</p>
+      <p>1</p>
+      <p>1</p>
+      <p>1</p>
+      <p>1</p>
+      <p>1</p>
+      <p>1</p>
+      <p>1</p>
+      <p>1</p>
+      <p>1</p>
+      <p>1</p>
+      <p>1</p>
+      <p>1</p>
+      <p>1</p>
+      <p>1</p>
+      <p>1</p>
+      <p>1</p>
+      <p>1</p>
+      <p>1</p>
+      <p>1</p>
+      <p>1</p>
+    <Lazyimg>
+        <img src-data = "../src/assets/image/4.jpg">
+        <img src-data = "../src/assets/image/5.jpg">
+        <img src-data = "../src/assets/image/6.jpg">
+    </Lazyimg>
   </div>
 </template>
 
 <script>
-import Tree from './components/Tree.vue';
+import Lazyimg from './components/Lazyimg.vue';
 export default {
   name: "app",
 
@@ -170,8 +195,7 @@ export default {
     
   },
   components: {
-    
-    Tree,
+    Lazyimg,
   },
 };
 </script>
@@ -179,7 +203,9 @@ export default {
 <style>
 #app {
   padding:50px;
-  display: flex;
+}
+p{
+  height:50px;
 }
 .aa {
   margin:20px 0 0 20px;

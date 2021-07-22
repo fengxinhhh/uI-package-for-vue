@@ -1,10 +1,11 @@
 {
-  "name": "ui-package-for-vu",
+  "name": "ui-package-for-vue",
   "description": "An UI Element Package Writed By SuZhouFx",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "author": "fengxin <1244200081@qq.com>",
   "license": "MIT",
-  "private": true,
+  "private": false,
+  "main":"dist/main.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
