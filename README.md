@@ -1,6 +1,6 @@
 # ui-package-for-vue
 
-> A Vue.js project
+> ui-package-for-vue
 
 ## Build Setup
 
@@ -14,5 +14,6 @@ npm run dev
 # build for production with minification
 npm run build
 ```
+You should load this package with npm,tha commit is that 'npm i ui-package-for-vue'.
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
